@@ -183,7 +183,7 @@ In the above code chunk, continue to play around with having the aesthetics mapp
 For example, how does having all of them mapped in the `ggplot` call compared to having these instead mapped in the `geom_boxplot` layer?
 Comment on what you notice.
 
-**Response**:
+**Response**: Having them mapped within a certain type of plot can allow you to play with the graphs more in terms of aesthetic. If you listed the map in the ggplot line, then that controls all the plots shown, not individual. 
 
 
 Knit, stage, commit (with a meaningful commit message),and push everything in your **Git** pane to your GitHub repo.
