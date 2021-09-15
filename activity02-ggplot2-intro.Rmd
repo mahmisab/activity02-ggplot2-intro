@@ -156,7 +156,9 @@ Try doing the following in the code chunk below with my *hint*:
 - *Add* another geometry layer for the jitterplot.
 
 ```{r box-jitter-combined}
-
+ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, fill = species)) +
+    geom_jitter(mapping=aes(fill=species))+
+    geom_boxplot()
 ```
 
 Play around with doing the jitterplot laid over the boxplot and the boxplot laid over the jitterplot.
@@ -176,7 +178,9 @@ In the code chunk below, explore different methods to try to create this plot.
 A hint, all `geom_*` have a `mapping` argument.
 
 ```{r jitter-colored-only}
-
+ ggplot(data=penguins)+
+   geom_jitter (mapping=aes(x=flipper_length_mm, y=species, color=species)) +
+  geom_boxplot(mapping=aes(x=flipper_length_mm, y=species))
 ```
 
 In the above code chunk, continue to play around with having the aesthetics mapped in the different layers.
