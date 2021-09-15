@@ -137,7 +137,7 @@ Comment on the strengths of the boxplot compared to the jitterplot and vice vers
 That is, what can you easily determine by looking at the boxplot?
 What about the jitterplot?
 
-**Response**: Within a boxplot, you can easily identify the statistics of the data like the median, range, max, min, and outliers if the data has any. With the jitterplot, you can easily see all data points. 
+**Response**: Within a boxplot, you can easily identify the statistics of the data like the median, range, max, min, and outliers if the data has any. With the jitterplot, you can easily see all data points. You can also see the distribution within each species. This can also be seen in a boxplot, but this gives another point of view. 
 
 
 Knit, stage, commit (with a meaningful commit message),and push everything in your **Git** pane to your GitHub repo.
@@ -146,7 +146,7 @@ Which is easier to read?
 Which looks more professional?
 
 **Response**:
-
+I cannot seem to access my .md file or even see it. My rmd file looks more like code and probably not very professinal, but then again, I can;t see my .md file. 
 
 Now, wouldn't it be nice if we could combine these two plots so that we get the benefits of both!?!
 That is, how can we overlay the jitterplot over the boxplot?
@@ -164,7 +164,7 @@ Which do you prefer?
 Why?
 
 **Response**:
-
+I prefer the boxplot over the jitter plot because you can see more of the sample statistics withthe boxplot on top. The jitter plot allows you to see outliers, but also makes it hard to identify the statistics that the boxplt are displaying (q1, q3, median, etc).
 
 This is getting us closer to one of my favorite plots - the raincloud plot.
 We are not quite ready to create this plot, but we will get there eventually!
